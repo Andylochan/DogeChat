@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CD3BB623FE1B9300624A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BB523FE1B9300624A12 /* AppDelegate.swift */; };
+		14CD3BB823FE1B9300624A12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BB723FE1B9300624A12 /* SceneDelegate.swift */; };
+		14CD3BBD23FE1B9300624A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD3BBB23FE1B9300624A12 /* Main.storyboard */; };
+		14CD3BBF23FE1B9400624A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CD3BBE23FE1B9400624A12 /* Assets.xcassets */; };
+		14CD3BC223FE1B9400624A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD3BC023FE1B9400624A12 /* LaunchScreen.storyboard */; };
+		14CD3BCD23FE1B9400624A12 /* DogeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BCC23FE1B9400624A12 /* DogeChatTests.swift */; };
+		14CD3BD823FE1B9500624A12 /* DogeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BD723FE1B9500624A12 /* DogeChatUITests.swift */; };
+		14CD3BE923FE1FA800624A12 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BE823FE1FA800624A12 /* Message.swift */; };
+		14CD3BEB23FE31FC00624A12 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BEA23FE31FC00624A12 /* RegisterViewController.swift */; };
+		14CD3BED23FE320900624A12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BEC23FE320900624A12 /* LoginViewController.swift */; };
+		14CD3BEF23FE322500624A12 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BEE23FE322500624A12 /* ChatViewController.swift */; };
+		14CD3BF223FE330C00624A12 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BF023FE330C00624A12 /* MessageCell.swift */; };
+		14CD3BF323FE330C00624A12 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CD3BF123FE330C00624A12 /* MessageCell.xib */; };
+		14CD3BF523FE3F0E00624A12 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BF423FE3F0E00624A12 /* WelcomeViewController.swift */; };
+		14CD3BF723FE46D900624A12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD3BF623FE46D900624A12 /* Constants.swift */; };
+		14CD3BF923FE4A6100624A12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14CD3BF823FE4A6100624A12 /* GoogleService-Info.plist */; };
+		14D3A67223FE53F0004C17C7 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 14D3A67123FE53F0004C17C7 /* IQKeyboardManagerSwift */; };
+		15E6B637B63664B9C1D8331D /* Pods_DogeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53A81BFCF5FEF158741DC15 /* Pods_DogeChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14CD3BC923FE1B9400624A12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CD3BAA23FE1B9300624A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CD3BB123FE1B9300624A12;
+			remoteInfo = DogeChat;
+		};
+		14CD3BD423FE1B9400624A12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CD3BAA23FE1B9300624A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CD3BB123FE1B9300624A12;
+			remoteInfo = DogeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CD3BB223FE1B9300624A12 /* DogeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CD3BB523FE1B9300624A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CD3BB723FE1B9300624A12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14CD3BBC23FE1B9300624A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CD3BBE23FE1B9400624A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CD3BC123FE1B9400624A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CD3BC323FE1B9400624A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CD3BC823FE1B9400624A12 /* DogeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CD3BCC23FE1B9400624A12 /* DogeChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeChatTests.swift; sourceTree = "<group>"; };
+		14CD3BCE23FE1B9400624A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CD3BD323FE1B9400624A12 /* DogeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CD3BD723FE1B9500624A12 /* DogeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeChatUITests.swift; sourceTree = "<group>"; };
+		14CD3BD923FE1B9500624A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CD3BE823FE1FA800624A12 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		14CD3BEA23FE31FC00624A12 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		14CD3BEC23FE320900624A12 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		14CD3BEE23FE322500624A12 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		14CD3BF023FE330C00624A12 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		14CD3BF123FE330C00624A12 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		14CD3BF423FE3F0E00624A12 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		14CD3BF623FE46D900624A12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14CD3BF823FE4A6100624A12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90442DC70E0183C3584712AE /* Pods-DogeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogeChat.debug.xcconfig"; path = "Target Support Files/Pods-DogeChat/Pods-DogeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		AFEFCFDB1769A26448AA509D /* Pods-DogeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogeChat.release.xcconfig"; path = "Target Support Files/Pods-DogeChat/Pods-DogeChat.release.xcconfig"; sourceTree = "<group>"; };
+		E53A81BFCF5FEF158741DC15 /* Pods_DogeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CD3BAF23FE1B9300624A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E6B637B63664B9C1D8331D /* Pods_DogeChat.framework in Frameworks */,
+				14D3A67223FE53F0004C17C7 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BC523FE1B9400624A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BD023FE1B9400624A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CD3BA923FE1B9300624A12 = {
+			isa = PBXGroup;
+			children = (
+				14CD3BB423FE1B9300624A12 /* DogeChat */,
+				14CD3BCB23FE1B9400624A12 /* DogeChatTests */,
+				14CD3BD623FE1B9400624A12 /* DogeChatUITests */,
+				14CD3BB323FE1B9300624A12 /* Products */,
+				A4E1D2D277232399F29636B3 /* Pods */,
+				E918D3DFA434B122E0CE86B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CD3BB323FE1B9300624A12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BB223FE1B9300624A12 /* DogeChat.app */,
+				14CD3BC823FE1B9400624A12 /* DogeChatTests.xctest */,
+				14CD3BD323FE1B9400624A12 /* DogeChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CD3BB423FE1B9300624A12 /* DogeChat */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BB523FE1B9300624A12 /* AppDelegate.swift */,
+				14CD3BB723FE1B9300624A12 /* SceneDelegate.swift */,
+				14CD3BE523FE1F3C00624A12 /* Models */,
+				14CD3BE623FE1F4800624A12 /* Views */,
+				14CD3BE723FE1F5000624A12 /* Controllers */,
+				14CD3BBE23FE1B9400624A12 /* Assets.xcassets */,
+				14CD3BC023FE1B9400624A12 /* LaunchScreen.storyboard */,
+				14CD3BC323FE1B9400624A12 /* Info.plist */,
+				14CD3BF823FE4A6100624A12 /* GoogleService-Info.plist */,
+				14CD3BF623FE46D900624A12 /* Constants.swift */,
+			);
+			path = DogeChat;
+			sourceTree = "<group>";
+		};
+		14CD3BCB23FE1B9400624A12 /* DogeChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BCC23FE1B9400624A12 /* DogeChatTests.swift */,
+				14CD3BCE23FE1B9400624A12 /* Info.plist */,
+			);
+			path = DogeChatTests;
+			sourceTree = "<group>";
+		};
+		14CD3BD623FE1B9400624A12 /* DogeChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BD723FE1B9500624A12 /* DogeChatUITests.swift */,
+				14CD3BD923FE1B9500624A12 /* Info.plist */,
+			);
+			path = DogeChatUITests;
+			sourceTree = "<group>";
+		};
+		14CD3BE523FE1F3C00624A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BE823FE1FA800624A12 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14CD3BE623FE1F4800624A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BBB23FE1B9300624A12 /* Main.storyboard */,
+				14CD3BF023FE330C00624A12 /* MessageCell.swift */,
+				14CD3BF123FE330C00624A12 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14CD3BE723FE1F5000624A12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14CD3BF423FE3F0E00624A12 /* WelcomeViewController.swift */,
+				14CD3BEA23FE31FC00624A12 /* RegisterViewController.swift */,
+				14CD3BEC23FE320900624A12 /* LoginViewController.swift */,
+				14CD3BEE23FE322500624A12 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4E1D2D277232399F29636B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90442DC70E0183C3584712AE /* Pods-DogeChat.debug.xcconfig */,
+				AFEFCFDB1769A26448AA509D /* Pods-DogeChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E918D3DFA434B122E0CE86B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53A81BFCF5FEF158741DC15 /* Pods_DogeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CD3BB123FE1B9300624A12 /* DogeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CD3BDC23FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChat" */;
+			buildPhases = (
+				F44BB38AE0562F5A341E85EB /* [CP] Check Pods Manifest.lock */,
+				14CD3BAE23FE1B9300624A12 /* Sources */,
+				14CD3BAF23FE1B9300624A12 /* Frameworks */,
+				14CD3BB023FE1B9300624A12 /* Resources */,
+				C4F8DFE529857F9ECE9A538E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogeChat;
+			packageProductDependencies = (
+				14D3A67123FE53F0004C17C7 /* IQKeyboardManagerSwift */,
+			);
+			productName = DogeChat;
+			productReference = 14CD3BB223FE1B9300624A12 /* DogeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14CD3BC723FE1B9400624A12 /* DogeChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CD3BDF23FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChatTests" */;
+			buildPhases = (
+				14CD3BC423FE1B9400624A12 /* Sources */,
+				14CD3BC523FE1B9400624A12 /* Frameworks */,
+				14CD3BC623FE1B9400624A12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CD3BCA23FE1B9400624A12 /* PBXTargetDependency */,
+			);
+			name = DogeChatTests;
+			productName = DogeChatTests;
+			productReference = 14CD3BC823FE1B9400624A12 /* DogeChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14CD3BD223FE1B9400624A12 /* DogeChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CD3BE223FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChatUITests" */;
+			buildPhases = (
+				14CD3BCF23FE1B9400624A12 /* Sources */,
+				14CD3BD023FE1B9400624A12 /* Frameworks */,
+				14CD3BD123FE1B9400624A12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CD3BD523FE1B9400624A12 /* PBXTargetDependency */,
+			);
+			name = DogeChatUITests;
+			productName = DogeChatUITests;
+			productReference = 14CD3BD323FE1B9400624A12 /* DogeChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CD3BAA23FE1B9300624A12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Andy Lochan";
+				TargetAttributes = {
+					14CD3BB123FE1B9300624A12 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					14CD3BC723FE1B9400624A12 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 14CD3BB123FE1B9300624A12;
+					};
+					14CD3BD223FE1B9400624A12 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 14CD3BB123FE1B9300624A12;
+					};
+				};
+			};
+			buildConfigurationList = 14CD3BAD23FE1B9300624A12 /* Build configuration list for PBXProject "DogeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CD3BA923FE1B9300624A12;
+			packageReferences = (
+				14D3A67023FE53F0004C17C7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 14CD3BB323FE1B9300624A12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CD3BB123FE1B9300624A12 /* DogeChat */,
+				14CD3BC723FE1B9400624A12 /* DogeChatTests */,
+				14CD3BD223FE1B9400624A12 /* DogeChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CD3BB023FE1B9300624A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CD3BC223FE1B9400624A12 /* LaunchScreen.storyboard in Resources */,
+				14CD3BF323FE330C00624A12 /* MessageCell.xib in Resources */,
+				14CD3BF923FE4A6100624A12 /* GoogleService-Info.plist in Resources */,
+				14CD3BBF23FE1B9400624A12 /* Assets.xcassets in Resources */,
+				14CD3BBD23FE1B9300624A12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BC623FE1B9400624A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BD123FE1B9400624A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4F8DFE529857F9ECE9A538E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogeChat/Pods-DogeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogeChat/Pods-DogeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogeChat/Pods-DogeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44BB38AE0562F5A341E85EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CD3BAE23FE1B9300624A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CD3BED23FE320900624A12 /* LoginViewController.swift in Sources */,
+				14CD3BF523FE3F0E00624A12 /* WelcomeViewController.swift in Sources */,
+				14CD3BF223FE330C00624A12 /* MessageCell.swift in Sources */,
+				14CD3BEB23FE31FC00624A12 /* RegisterViewController.swift in Sources */,
+				14CD3BEF23FE322500624A12 /* ChatViewController.swift in Sources */,
+				14CD3BE923FE1FA800624A12 /* Message.swift in Sources */,
+				14CD3BB623FE1B9300624A12 /* AppDelegate.swift in Sources */,
+				14CD3BB823FE1B9300624A12 /* SceneDelegate.swift in Sources */,
+				14CD3BF723FE46D900624A12 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BC423FE1B9400624A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CD3BCD23FE1B9400624A12 /* DogeChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CD3BCF23FE1B9400624A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CD3BD823FE1B9500624A12 /* DogeChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CD3BCA23FE1B9400624A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CD3BB123FE1B9300624A12 /* DogeChat */;
+			targetProxy = 14CD3BC923FE1B9400624A12 /* PBXContainerItemProxy */;
+		};
+		14CD3BD523FE1B9400624A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CD3BB123FE1B9300624A12 /* DogeChat */;
+			targetProxy = 14CD3BD423FE1B9400624A12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14CD3BBB23FE1B9300624A12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CD3BBC23FE1B9300624A12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CD3BC023FE1B9400624A12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CD3BC123FE1B9400624A12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CD3BDA23FE1B9500624A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CD3BDB23FE1B9500624A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CD3BDD23FE1B9500624A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90442DC70E0183C3584712AE /* Pods-DogeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CD3BDE23FE1B9500624A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEFCFDB1769A26448AA509D /* Pods-DogeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14CD3BE023FE1B9500624A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogeChat.app/DogeChat";
+			};
+			name = Debug;
+		};
+		14CD3BE123FE1B9500624A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogeChat.app/DogeChat";
+			};
+			name = Release;
+		};
+		14CD3BE323FE1B9500624A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogeChat;
+			};
+			name = Debug;
+		};
+		14CD3BE423FE1B9500624A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67J949XXJM;
+				INFOPLIST_FILE = DogeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.andylochan.DogeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogeChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CD3BAD23FE1B9300624A12 /* Build configuration list for PBXProject "DogeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD3BDA23FE1B9500624A12 /* Debug */,
+				14CD3BDB23FE1B9500624A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CD3BDC23FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD3BDD23FE1B9500624A12 /* Debug */,
+				14CD3BDE23FE1B9500624A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CD3BDF23FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD3BE023FE1B9500624A12 /* Debug */,
+				14CD3BE123FE1B9500624A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CD3BE223FE1B9500624A12 /* Build configuration list for PBXNativeTarget "DogeChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD3BE323FE1B9500624A12 /* Debug */,
+				14CD3BE423FE1B9500624A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14D3A67023FE53F0004C17C7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14D3A67123FE53F0004C17C7 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14D3A67023FE53F0004C17C7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14CD3BAA23FE1B9300624A12 /* Project object */;
+}
