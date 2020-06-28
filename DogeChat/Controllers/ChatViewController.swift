@@ -22,33 +22,12 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         title = K.appName
-//        navigationItem.hidesBackButton = true
+        navigationItem.hidesBackButton = true
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier )
         
         loadMessages()
     }
-    
-    @IBAction func sendPressed(_ sender: UIButton) {
-            
-            if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email {
-                db.collection(K.FStore.collectionName).addDocument(data: [
-                    K.FStore.senderField: messageSender,
-                    K.FStore.bodyField: messageBody,
-                    K.FStore.dateField: Date().timeIntervalSince1970
-                ]) { (error) in
-                    if let e = error {
-                        print("There was an issue saving data to firestore, \(e)")
-                    } else {
-                        print("Successfully saved data.")
-                        
-                        DispatchQueue.main.async {
-                            self.messageTextfield.text = ""
-                        }
-                    }
-                }
-            }
-        }
     
     func loadMessages() {
         
@@ -79,6 +58,39 @@ class ChatViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func sendPressed(_ sender: UIButton) {
+            
+            if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email {
+                db.collection(K.FStore.collectionName).addDocument(data: [
+                    K.FStore.senderField: messageSender,
+                    K.FStore.bodyField: messageBody,
+                    K.FStore.dateField: Date().timeIntervalSince1970
+                ]) { (error) in
+                    if let e = error {
+                        print("There was an issue saving data to firestore, \(e)")
+                    } else {
+                        print("Successfully saved data.")
+                        
+                        DispatchQueue.main.async {
+                            self.messageTextfield.text = ""
+                        }
+                    }
+                }
+            }
+        }
+    
+    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
+        
+        do {
+            try Auth.auth().signOut()
+            navigationController?.popToRootViewController(animated: true)
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+    }
+    
     
     
 }
