@@ -1,1 +1,3 @@
-DogeChat ~ A simple dog themed messenger app using Google Firebase. 
+
+# DogeChat - Messenger app using Google Firebase.
+
