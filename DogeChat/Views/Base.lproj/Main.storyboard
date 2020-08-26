@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="noX-DS-cND">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="noX-DS-cND">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -170,6 +170,7 @@
                                 <rect key="frame" x="94" y="418" width="226" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="HXE-HJ-Zb9"/>
+                                    <constraint firstAttribute="width" constant="226" id="LUT-Oi-DTr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" name="BrandBlue"/>
@@ -212,7 +213,6 @@
                             <constraint firstItem="fOO-6N-ebP" firstAttribute="bottom" secondItem="9hR-IZ-QfB" secondAttribute="bottom" id="C04-8Y-Xh9"/>
                             <constraint firstItem="9hR-IZ-QfB" firstAttribute="top" secondItem="grj-yT-fgK" secondAttribute="bottom" constant="8" id="GJp-2q-tXu"/>
                             <constraint firstItem="gBp-c1-XR4" firstAttribute="centerX" secondItem="HSU-Wy-2rx" secondAttribute="centerX" id="PIs-fq-m78"/>
-                            <constraint firstItem="gBp-c1-XR4" firstAttribute="leading" secondItem="fOO-6N-ebP" secondAttribute="leading" constant="94" id="S39-r1-cUm"/>
                             <constraint firstItem="grj-yT-fgK" firstAttribute="leading" secondItem="fOO-6N-ebP" secondAttribute="leading" id="TFX-J2-OaB"/>
                             <constraint firstItem="9hR-IZ-QfB" firstAttribute="top" secondItem="grj-yT-fgK" secondAttribute="bottom" constant="8" id="nyZ-2L-YO4"/>
                             <constraint firstItem="gBp-c1-XR4" firstAttribute="centerY" secondItem="HSU-Wy-2rx" secondAttribute="centerY" id="txz-OY-OOf"/>
